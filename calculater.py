@@ -9,10 +9,10 @@ elif operator=="-":
     print(num1,"-",num2,"=",num1-num2)
 elif operator=="/":
     if num2==0:
-        print("A number not dived by 0")
+        print("A number not dived by 0!")
     else:
         print(num1,"/",num2,"=",num1/num2)      
 elif operator=="*":
     print(num1,"*",num2,"=",num1*num2)
 else:
-    print("Plese give a valid operator")
+    print("Plese enter a valid operator")
